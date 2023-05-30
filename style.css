@@ -17,26 +17,27 @@
 .card{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;    
+    justify-content: space-between;   
     padding: 48px 32px 32px 32px;
-    background-color: #FFFFFF;
-    border: 1px solid;
-    border-radius: 10px;
-    width: 384px;
-    height: 454px;
-}
-.card-especial {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 48px 32px 32px 32px;
-    gap: 10px;
     background-color: #FFFFFF;
     border: 1px solid;
     border-radius: 10px;
     width: 384px;
     height: 454px;
     
+}
+.card-especial {
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-between;*/
+    padding: 48px 32px 32px 32px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 384px;
+    height: 454px;
+    background: #0F172A;
+
 }
 span {
     width: 147px;
@@ -48,17 +49,16 @@ span {
     letter-spacing: 0.06em; /*espaçamento entre as letras*/
     text-transform: uppercase;
     color: #7c3aed;
-
 }
-.text{
+.texto{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     padding: 0px;
-    gap: 8px;
-    
+    gap: 8px;  
+     
 }
 button{
     display: flex;
@@ -81,8 +81,7 @@ button{
 }
 hr {
     margin-bottom: 30px;
-    border: 1px solid /*#e2e8f0*/;
-    
+    border: 1px solid #e2e8f0;
 }
 h1{
     width: 142px;
@@ -92,37 +91,35 @@ h1{
     font-weight: 700;
     font-size: 32px;
     line-height: 46px;
-    color: #1E293B;
 }
 p {
     font-family: 'Titillium Web', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    line-height: 30px;
-    color: #1E293B;
-    
+    line-height: 30px;   
 }
 img {
     width: 20px;
     height: 20px;
 }
 .info p {
-    
     line-height: 50px;
     font-family: 'Titillium Web';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     color: #475569;
+    
+    /*line-height: 24px;*/
 }
  .info {
     display: flex;
-    justify-content: space-between;
+    
     align-items: center;
     position: relative;
     padding: 0px;
-    gap: 11px;
+    gap: 10px;
  }
  .checkinfo {
     display: flex;
@@ -130,8 +127,34 @@ img {
     padding: 0px;
     gap: 8px;
     width: 100%;
- }
- 
+}
+.card-especial span {
+    line-height: 24px;
+    color: #7c3aed;
+    gap: 10px;
+}
+.text-especial { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0px;
+    gap: 8px;
+    color: #F8FAFC;
+}
+.card-especial button {
+    margin: 30px 0px 30px 0px;
+    background: #996DFF;
+    
+}
+.card-especial .checkinfo p {
+    gap: 10px;
+    line-height: 40px;
+    color: #CBD5E1;
+}
+
+
 
 
 
