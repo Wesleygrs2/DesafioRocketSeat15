@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#cards-group {
+    display: flex;
+    flex-direction: row; /*Eixo principal horizontal */
+    align-items: flex-start;
+    gap: 36px;
+    position: absolute;
+    width: 1216px;
+    height: 454px;
+    left: 80px;
+    top: 100px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+    padding: 48px 32px 32px 32px;
+    background-color: #FFFFFF;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 384px;
+    height: 454px;
+}
+.card-especial {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 48px 32px 32px 32px;
+    gap: 10px;
+    background-color: #FFFFFF;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 384px;
+    height: 454px;
+    
+}
+ 
+
+
+
+
+
+    
+
+
+
+
+
+
