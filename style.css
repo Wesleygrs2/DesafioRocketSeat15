@@ -24,22 +24,31 @@ body {
     padding: 48px 32px 32px 32px;
     gap: 14px;
     background-color: #FFFFFF;
-    border: 1px solid;
+    border: 1px solid #E2E8F0;
     border-radius: 10px;
     width: 384px;
     height: 454px;
 }
+.card:hover {
+    border: 1px solid #996dff;
+    border-radius: 6px;
+ }
 .card-especial {
     display: flex;
     flex-direction: column;
     padding: 48px 32px 32px 32px;
-    background-color: white;
-    border: 1px solid;
+    background-color: #F8FAFC;
+    border: 1px solid #E2E8F0 ;
     border-radius: 10px;
     width: 384px;
     height: 454px;
     background: #0F172A;
 }
+.card-especial:hover {
+    border: 1px solid white;
+    border-radius: 6px;
+}
+
 span {
     width: 147px;
     height: 21px;
@@ -65,13 +74,11 @@ button {
     justify-content: center;
     align-items: center;
     padding: 16px 24px;
-    gap: px;
     border: 1px solid #1E293B;
     border-radius: 4px;
     cursor: pointer;
     margin: 9px 0px 9px 0px;
     /*text*/
-    
     font-weight: 700;
     font-size: 16px;
     color: #1E293B;
@@ -144,14 +151,35 @@ pre {
     color: #F8FAFC;    
 }
 .card-especial button {
-    margin: 30px 0px 20px 0px;
+    margin: 30px 0px 22px 0px;
     background: #996DFF;
 }
 .card-especial .checkinfo p { 
     line-height: 40px;
     color: #CBD5E1;
 }
-
+.tag {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 10px;
+    position: absolute;
+    width: 163px;
+    height: 34px;
+    left: calc(50% - 163px/2 - 0.5px);
+    top: -18px;
+    background-color: #FBA94C;
+    border-radius: 10px;
+}
+button:hover {
+    background-color: #996DFF;
+    line-height: 20px;    
+}
+.card-especial button:hover{
+    background: #7c3aed;
+    line-height: 20px;
+}
 
 
 
