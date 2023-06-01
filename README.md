@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="./github/cards.png" alt="Demonstração do Projeto" width="100%">
+    <img src=".github/cards.png" alt="Demonstração do Projeto" width="100%">
 </p>
 
 
