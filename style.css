@@ -180,8 +180,15 @@ button:hover {
     background: #7c3aed;
     line-height: 20px;
 }
-
-
+/*Responsividade*/
+@media screen and (max-width: 800px) {  
+    #cards-group {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+}
 
 
 

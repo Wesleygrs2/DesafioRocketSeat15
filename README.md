@@ -5,10 +5,10 @@
 
 
 🖥️ Projeto
-Esse é um projeto Web Responsivo de uma cápsula do tempo para exibir memórias em uma linha do tempo.
+Esse é um projeto Web Responsivo de alguns cards com diferente tipos de planos.
 
 👨‍💻 Tecnologias
-Esse projeto foi desenvolvido durante a NLW da Rocketseat com as seguintes tecnologias:
+Esse projeto foi desenvolvido como forma de estudo com um dos desafios da Rocketseat com as seguintes tecnologias:
 
 - HTML
 - CSS
