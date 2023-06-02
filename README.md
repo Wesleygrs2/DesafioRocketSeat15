@@ -4,10 +4,10 @@
 
 
 
-🖥️ Projeto
+## 🖥️ Projeto
 Esse é um projeto Web Responsivo de alguns cards com diferente tipos de planos.
 
-👨‍💻 Tecnologias
+## 👨‍💻 Tecnologias
 Esse projeto foi desenvolvido como forma de estudo com um dos desafios da Rocketseat com as seguintes tecnologias:
 
 - HTML
